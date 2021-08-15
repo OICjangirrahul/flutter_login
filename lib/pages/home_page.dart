@@ -8,7 +8,7 @@ class HomePage extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       
-      appBar: AppBar(backgroundColor: Colors.red,title: Text("sky grid"),),
+      appBar: AppBar(backgroundColor: Colors.deepPurple,title: Text("sky grid"),),
       drawer: Mydrawer(),
       body: Center(
         child: Container(
