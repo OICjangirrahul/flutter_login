@@ -32,6 +32,7 @@ class Mydrawer extends StatelessWidget {
             ),
             ListTile(
               
+              
               leading: Icon(CupertinoIcons.home,color: Colors.white,),
               title: Text("Home",
               textScaleFactor: 1.2,
@@ -42,7 +43,10 @@ class Mydrawer extends StatelessWidget {
               leading: Icon(CupertinoIcons.profile_circled,color: Colors.white,),
               title: Text("Profile",
               textScaleFactor: 1.2,
-              style: TextStyle(color: Colors.white),),
+              style: TextStyle(color: Colors.white,),
+              
+              
+              ),
             ),
              ListTile(
               
